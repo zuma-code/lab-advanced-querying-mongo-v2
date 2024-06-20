@@ -23,7 +23,8 @@ $ git commit -m "done"
 $ git push origin master
 ```
 
-- Create Pull Request so your TAs can check up your work.
+- Create a Pull Request and submit your assignment.
+
 
 ## Deliverables
 
