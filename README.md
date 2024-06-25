@@ -52,24 +52,10 @@ The database contains more than 18k documents. Each document holds the data abou
 
 1. You will find the `.zip` file of the database on the **lab** folder.
 2. Unzip the file
-3. Navigate to this lab's folder in your terminal, and when inside, import the database to Mongo using the following command:
-
-**When running the `mongoimport` you should be located in the same folder as the `data.json` file.**
-
-```bash
-$ mongoimport --db companiesDB --collection companies --file data.json
-```
-
-What this mongoimport will do for us is to create a database named _companiesDB_, and inside the database will create a collection named _companies_ which will be fed with _data.json_.
-
-**Note**: In case of errors or the hanging with no response when running this command, add [--jsonArray](https://docs.mongodb.com/manual/reference/program/mongoimport/#cmdoption-mongoimport-jsonarray) at the end of the previous command.
-
-
-**Important - Windows Users**: If you are using Windows, you will need to import the data using MongoDB Compass.
-
-<br>
-
-4. Check on MongoDB Compass if everything goes ok:
+3. Open MongoDB Compass and connect to your MongoDB server.
+4. Create a new database named `companiesDB` and inside of it a collection  named `companies`.
+5. Import the data from the .json file in to the collection `companies`.
+6. Check on MongoDB Compass if everything goes ok:
 
 ![image](https://user-images.githubusercontent.com/23629340/36534191-1f1bc5ec-17c6-11e8-9463-4945679b98c0.png)
 
