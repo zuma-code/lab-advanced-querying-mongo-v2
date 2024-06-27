@@ -145,12 +145,13 @@ You already know how this goes, so let's start working:
 
 <br>
 
-8. Retrieve the 10 companies with most employees, order by the `number of employees`.
+8. Retrieve the 10 companies with th most employees, order by the `number of employees`.
 
 <details>
   <summary>Solution</summary>
 
-- Query: `{number_of_employees: -1}`
+- Query: `{ number_of_employees: { $exists: true } }`
+- Sort:  `{number_of_employees: -1}`
 - Limit: `10`
 
 </details>
