@@ -145,7 +145,7 @@ You already know how this goes, so let's start working:
 
 <br>
 
-8. Retrieve the 10 companies with th most employees, order by the `number of employees`.
+8. Retrieve the 10 companies with the most employees, order by the `number of employees`.
 
 <details>
   <summary>Solution</summary>
